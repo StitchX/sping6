@@ -7,11 +7,11 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
-// 方法二
+// 方法一
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration("classpath:bean.xml")
 
-// 方法一
+// 方法二
 //@SpringJUnitConfig(locations = "classpath:bean.xml")
 public class SpringTestJunit5 {
 //    注入

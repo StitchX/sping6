@@ -1,4 +1,4 @@
-package com.atguigu.spring6.example;
+package com.atguigu.spring6.xmlaop;
 
 /**
  * @Description:

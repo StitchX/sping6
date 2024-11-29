@@ -28,8 +28,8 @@ public class LogAspect {
         System.out.println("Logger-->前置通知，方法名称："+methodName+",参数"+ Arrays.toString(args));
     }
 //      后置 @After()
-//    @After(value = "pointCut()")
-    @After(value = "com.atguigu.spring6.aop.annoaop.LogAspect.pointCut()")
+    @After(value = "pointCut()")
+//    @After(value = "com.atguigu.spring6.aop.annoaop.LogAspect.pointCut()")
     public void afterMethod(JoinPoint joinPoint){
         String methodName = joinPoint.getSignature().getName();
         System.out.println("Logger-->后置通知，方法名称："+methodName);

@@ -5,7 +5,7 @@ package com.atguigu.spring6.annoaop;
  * @Author Eva
  * @Date 2024/11/29 16:34
  */
-public class CalculatorImp implements Calculator{
+public class CalculatorImpl implements Calculator{
     @Override
     public int add(int i, int j) {
         int result = i+j;

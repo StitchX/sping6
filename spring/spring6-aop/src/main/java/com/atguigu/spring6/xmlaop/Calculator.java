@@ -1,4 +1,4 @@
-package com.atguigu.spring6.example;
+package com.atguigu.spring6.xmlaop;
 
 /**
  * @Description:  1、环境准备，基于xml的动态代理

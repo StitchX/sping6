@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>atguigu-spring</module>
+        <module>spring6-aop</module>
     </modules>
 
     <properties>
