@@ -9,7 +9,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Constraint(validatedBy = {CannotBlankValidation.class})
-public @interface CannotBlank {
+public @interface  CannotBlank {
 
 //    默认的提示信息
     String message() default "不能包含空格";

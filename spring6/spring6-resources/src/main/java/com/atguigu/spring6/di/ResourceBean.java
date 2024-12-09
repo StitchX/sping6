@@ -2,7 +2,7 @@ package com.atguigu.spring6.di;
 
 import org.springframework.core.io.Resource;
 
-public class ResourceBean {
+public class 1ResourceBean {
 
     private Resource resource;
 
